@@ -10,6 +10,11 @@ Description
 Long story short, pick up the surface size, move source and destination points as you like, draw walls, set weights to cells (default weight of white cells is 10), select shortest path finding algorithm (A*, Dijkstra or Breadth First Search) and start the visualisation by pressing Space.
 
 
+Requirements
+======
+
+    % pip install pygame
+
 Example
 =======
 Create 20x30 (<Rows>x<Columns>) grid, draw some walls, set some weights and launch the Dijkstra shortest path finding algorithm:
