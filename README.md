@@ -40,3 +40,16 @@ Create 20x30 (<Rows>x<Columns>) grid, draw some walls, set some weights and laun
 
 
 ![Sample](https://raw.github.com/dkruchinin/spdemo/master/misc/sample.jpg)
+![Sample2](https://raw.github.com/dkruchinin/spdemo/master/misc/sample2.png)
+
+Marking
+======
+
+* White: not visited and not discovered cells (weight: 10)
+* Green: discovered, but not visited cells
+* Yellow: visited cells
+* Gray: walls, can not be visited
+* Magenta: cells with non default weight (can be either 1, 2 or 3)
+* Orange: cells included to the shortest path
+* Green circle: source point
+* Red circle: destination point
