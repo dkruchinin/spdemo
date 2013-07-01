@@ -1,0 +1,38 @@
+DEFAULT_FPS = 40
+
+DEFAULT_SQ_SIZE = 20 # default cell (square) size on the grid
+
+GRID_BG_COLOR = 'white' # grid foreground
+GRID_FG_COLOR = 'black' # grid background
+
+DISCOVERED_CELL_COLOR = 'green'
+VISITED_CELL_COLOR = 'yellow'
+BLOCKED_CELL_COLOR = 'gray'
+NOTVISITED_CELL_COLOR = 'white'
+WEIGHTED_CELL_COLOR = 'magenta'
+
+SOURCE_POINT_COLOR = 'green'
+DESTINATION_POINT_COLOR = 'red'
+
+PATH_LINE_COLOR = 'white'
+PATH_CELL_COLOR = 'orange'
+CELL_WEIGHT_COLOR = 'black'
+
+MENU_FONT_SIZE = 12
+MENU_HEIGHT = MENU_FONT_SIZE + 6
+MENU_BG_COLOR = 'black'
+MENU_FG_COLOR = 'white'
+MENU_SEL_FG_COLOR = 'black'
+MENU_SEL_BG_COLOR = 'cyan'
+
+REPORT_FONT_SIZE = 16
+REPORT_FAIL_FONT_COLOR = 'darkred'
+REPORT_SUCCESS_FONT_COLOR = 'darkblue'
+REPORT_BG_COLOR = 'gray'
+
+DEFAULT_WALKER = 'A*'
+DEFAULT_BRUSH = 'Wall'
+DEFAULT_USE_DIAGS = True
+
+DEFAULT_CELL_WEIGHT = 10
+DEFAULT_FONT = 'Arial'
